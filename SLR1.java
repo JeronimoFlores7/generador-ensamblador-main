@@ -190,7 +190,7 @@ public class SLR1 {
                 System.out.println("Codigo Generado:\n");
                 System.out.println(PROG_c[tPROG_c]);
                 creaEscribeArchivo(xArchivo(salida), PROG_c[tPROG_c]);
-                System.out.println("Felicidades, Analisis sintactico correcto.");
+                System.out.println("Analisis sintactico correcto");
                 System.exit(0);
             } else {
                 if (z > 0) { // si es igual a un shift
